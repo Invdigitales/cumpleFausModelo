@@ -1,5 +1,5 @@
 
-let diaEvento = new Date('Octover 6, 2024 21:30:00').getTime();
+let diaEvento = new Date('Juny 29, 2025 21:30:00').getTime();
 let boton = document.querySelector("#btn")
 
 
@@ -62,17 +62,17 @@ function diaEventoAhora () {
 
 
 
-boton.addEventListener("click", () => {
+
+
+  boton.addEventListener("click", () => {
 
     Swal.fire({
       title: '<strong>VER LA UBICACION<u></u></strong>',
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.7799307773444!2d-63.683654325030886!3d-31.912576220412486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd23e400fc86cb%3A0xf5fdb97e3239691b!2sIglesia%20San%20Isidro!5e0!3m2!1ses-419!2sar!4v1708189328268!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
-        'Podes ampliar el mapa',
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.4023308052606!2d-61.581367900000004!3d-32.8081032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9e9bf85084001%3A0xe95051ce15c3f496!2sLa%20Fermina%20Club%20De%20Campo.!5e0!3m2!1ses-419!2sar!4v1715292113659!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         
         
     })
   });
-
